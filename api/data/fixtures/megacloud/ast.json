@@ -1,0 +1,70 @@
+{
+  "contract_id": "megacloud",
+  "vendor_name": "MegaCloud Inc.",
+  "parties": [
+    {
+      "name": "MegaCloud Inc.",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Master Services Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2022-01-01",
+      "executed": true,
+      "authority_rank": 0
+    },
+    {
+      "doc_id": "amend1",
+      "name": "Amendment 1",
+      "doc_type": "AMENDMENT",
+      "effective_date": "2024-01-01",
+      "executed": true,
+      "authority_rank": 1
+    },
+    {
+      "doc_id": "amend2",
+      "name": "Amendment 2",
+      "doc_type": "AMENDMENT",
+      "effective_date": "2025-01-01",
+      "executed": true,
+      "authority_rank": 2
+    },
+    {
+      "doc_id": "amend3",
+      "name": "Amendment 3",
+      "doc_type": "AMENDMENT",
+      "effective_date": "2025-07-01",
+      "executed": true,
+      "authority_rank": 3
+    },
+    {
+      "doc_id": "email1",
+      "name": "Email Agreement (loyalty discount extension)",
+      "doc_type": "EMAIL",
+      "effective_date": "2026-01-01",
+      "executed": true,
+      "authority_rank": 4
+    }
+  ],
+  "term": {
+    "start_date": "2022-01-01",
+    "end_date": "2027-01-01",
+    "renewal_type": "auto",
+    "renewal_notice_days": 90,
+    "auto_renewal_uplift_pct": 15.0,
+    "provenance": {
+      "doc_id": "msa",
+      "section": "3.1",
+      "quote": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least ninety (90) days prior to the end of the then-current term.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

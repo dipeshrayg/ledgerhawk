@@ -1,0 +1,66 @@
+{
+  "vendor_id": "crestline",
+  "rules": [
+    {
+      "rule_id": "msa:pricing.flat.base",
+      "rule_key": "pricing.flat.base",
+      "rule_type": "flat_fee",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a74.1",
+      "authority_rank": 0,
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "4.1",
+        "quote": "Customer shall pay a monthly subscription base fee of $250.00.",
+        "page": null
+      },
+      "params": {
+        "amount": "250.00",
+        "cadence": "monthly"
+      }
+    },
+    {
+      "rule_id": "msa:pricing.per_unit.supply_kit",
+      "rule_key": "pricing.per_unit.supply_kit",
+      "rule_type": "per_unit",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a74.2",
+      "authority_rank": 0,
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "4.2",
+        "quote": "Each supply kit ordered shall be billed at $12.00 per kit.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "supply_kit",
+        "rate": "12.00"
+      }
+    },
+    {
+      "rule_id": "msa:pricing.one_time.admin_fee",
+      "rule_key": "pricing.one_time.admin_fee",
+      "rule_type": "one_time",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a74.4",
+      "authority_rank": 0,
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "4.4",
+        "quote": "Customer shall pay an annual contract administration fee of $150.00, invoiced each January.",
+        "page": null
+      },
+      "params": {
+        "amount": "150.00",
+        "description": "Annual contract admin fee",
+        "date": "2026-01-15"
+      }
+    }
+  ]
+}

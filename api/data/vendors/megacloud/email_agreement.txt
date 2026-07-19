@@ -1,0 +1,31 @@
+From: billing@megacloud.example
+To: procurement@customercorp.example
+Date: November 15, 2025
+Subject: Re: Loyalty Discount Renewal for 2026
+
+Hi team,
+
+Following up on our call last week. Confirming that MegaCloud will
+extend the ten percent (10%) loyalty discount under Amendment 1 through
+December 31, 2026, effective January 1, 2026. Please treat this email as
+an executed amendment to the Agreement. This is permitted per Section 9.1
+of the MSA, which allows amendment by executed email exchange between
+authorized representatives.
+
+Let us know if you have any questions.
+
+Best,
+Alex Rivera
+Director of Billing, MegaCloud Inc.
+
+---
+
+From: procurement@customercorp.example
+To: billing@megacloud.example
+Date: November 15, 2025
+Subject: Re: Re: Loyalty Discount Renewal for 2026
+
+Confirmed and agreed on our end. Thank you, Alex.
+
+Jamie Chen
+VP Procurement, Customer Corp.

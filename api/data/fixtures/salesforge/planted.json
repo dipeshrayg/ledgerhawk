@@ -1,0 +1,32 @@
+[
+  {
+    "period": "2025-10",
+    "label": "Per-user rate above contract: billed $18.00/user vs. the contracted $15.00/user (Clause 6.2)",
+    "expected_total": "33136.00",
+    "actual_total": "39736.00",
+    "delta": "6600.00",
+    "meta": {
+      "billed_amount": "39600.00"
+    }
+  },
+  {
+    "period": "2025-12",
+    "label": "Price increase before allowed date: 5% escalation applied 3 months before its March 2026 effective date",
+    "expected_total": "33136.00",
+    "actual_total": "34786.00",
+    "delta": "1650.00",
+    "meta": {
+      "billed_amount": "34650.00"
+    }
+  },
+  {
+    "period": "2026-02",
+    "label": "Subtle volume-tier miscalculation: entire 800GB billed at the first-tier rate instead of graduated pricing",
+    "expected_total": "33136.00",
+    "actual_total": "33160.00",
+    "delta": "24.00",
+    "meta": {
+      "billed_amount": "160.00"
+    }
+  }
+]

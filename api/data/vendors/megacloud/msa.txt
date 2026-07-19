@@ -1,0 +1,51 @@
+MASTER SERVICES AGREEMENT
+
+between MegaCloud Inc. ("Vendor") and Customer Corp. ("Customer")
+Effective Date: January 1, 2022
+
+1. SERVICES
+1.1 Vendor shall provide Customer with access to the MegaCloud enterprise
+cloud and data platform (the "Services") in accordance with the order
+forms and amendments executed by the parties from time to time.
+1.2 Vendor shall use commercially reasonable efforts to maintain 99.9%
+uptime for the Services, measured monthly.
+
+2. TERM
+2.1 This Agreement commences on the Effective Date and continues for an
+initial term of thirty-six (36) months (the "Initial Term").
+
+3. RENEWAL
+3.1 This Agreement shall automatically renew for successive one-year terms
+unless either party provides written notice of non-renewal at least ninety
+(90) days prior to the end of the then-current term.
+
+4. CUSTOMER OBLIGATIONS
+4.1 Customer shall provision only authorized users and shall promptly
+report any material change in seat count to Vendor's billing system.
+
+5. DATA AND SECURITY
+5.1 Vendor shall maintain industry-standard technical and organizational
+safeguards for Customer data processed on the Services.
+
+6. FEES AND PAYMENT
+6.1 Customer shall pay all fees in accordance with this Section 6 and any
+amendments hereto.
+6.2 Customer shall pay $15.00 per active seat per month, invoiced monthly
+in arrears.
+6.3 All invoices are due within thirty (30) days of the invoice date.
+6.4 Vendor shall provide Customer with an itemized invoice showing seat
+counts, applicable discounts, and any one-time charges.
+
+7. LIMITATION OF LIABILITY
+7.1 Neither party's aggregate liability under this Agreement shall exceed
+the fees paid by Customer in the twelve (12) months preceding the claim.
+
+8. GOVERNING LAW
+8.1 This Agreement is governed by the laws of the State of Delaware.
+
+9. ENTIRE AGREEMENT
+9.1 This Agreement, together with all amendments and order forms executed
+by both parties, constitutes the entire agreement between the parties with
+respect to its subject matter. Amendments in the form of an executed email
+exchange between authorized representatives of both parties shall be
+treated as a valid written amendment.

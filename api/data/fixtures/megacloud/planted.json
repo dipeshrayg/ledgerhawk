@@ -1,0 +1,67 @@
+[
+  {
+    "period": "2025-08",
+    "label": "Seat drift: billed for 275 phantom seats above actual provisioned count",
+    "expected_total": "181300.00",
+    "actual_total": "185837.50",
+    "delta": "4537.50",
+    "meta": {
+      "true_rate": "16.50",
+      "phantom_units": 275
+    }
+  },
+  {
+    "period": "2025-09",
+    "label": "Double-charged one-time fee: $2,500 migration fee billed twice",
+    "expected_total": "183800.00",
+    "actual_total": "186300.00",
+    "delta": "2500.00",
+    "meta": {
+      "duplicated": "Data migration fee"
+    }
+  },
+  {
+    "period": "2025-11",
+    "label": "Unprorated mid-cycle upgrade: full month billed at new seat count, ignoring daily proration",
+    "expected_total": "196150.00",
+    "actual_total": "211000.00",
+    "delta": "14850.00",
+    "meta": {
+      "rate": "16.50",
+      "billed_full_month_qty": 12800
+    }
+  },
+  {
+    "period": "2026-01",
+    "label": "Escalation cap violated: vendor computed escalation from the original 2022 signing date (4 years) instead of the amendment's 2025 start date (1 year), breaching the 10% cumulative cap",
+    "expected_total": "199441.60",
+    "actual_total": "231057.60",
+    "delta": "31616.00",
+    "meta": {
+      "wrong_rate": "19.80",
+      "wrong_cumulative_pct": "20"
+    }
+  },
+  {
+    "period": "2026-03",
+    "label": "Missing rollover credit: $200/mo SLA credit from Amendment 3 not applied",
+    "expected_total": "199441.60",
+    "actual_total": "199641.60",
+    "delta": "200.00",
+    "meta": {
+      "removed": "Credit applied",
+      "removed_amount": "-200.00"
+    }
+  },
+  {
+    "period": "2026-05",
+    "label": "Expired-discount drop: vendor ignored the executed email extending the loyalty discount into 2026",
+    "expected_total": "199441.60",
+    "actual_total": "221624.00",
+    "delta": "22182.40",
+    "meta": {
+      "removed": "Discount",
+      "removed_amount": "-22182.40"
+    }
+  }
+]

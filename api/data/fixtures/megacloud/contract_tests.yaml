@@ -1,0 +1,20 @@
+vendor_id: megacloud
+tests:
+  - name: "11000 seats, steady state, August 2025 -> no discount, no escalation yet"
+    type: scenario
+    period_start: "2025-08-01"
+    period_end: "2025-08-31"
+    usage: {seats: 11000}
+    expect_total: "181300.00"
+  - name: "Escalation cap must never exceed 10%"
+    type: invariant
+    rule_key: "pricing.escalation.default"
+    field: cap_pct
+    operator: "<="
+    value: "10"
+  - name: "Proration policy must be defined"
+    type: invariant
+    rule_key: "pricing.proration_policy"
+    field: method
+    operator: "=="
+    value: "daily"

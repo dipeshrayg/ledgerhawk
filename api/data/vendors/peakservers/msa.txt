@@ -1,0 +1,35 @@
+HOSTING SERVICES AGREEMENT
+
+between PeakServers Hosting ("Vendor") and Customer Corp. ("Customer")
+Effective Date: May 1, 2023
+
+1. SERVICES
+1.1 Vendor shall provision and maintain dedicated server infrastructure
+for Customer's production workloads.
+
+2. TERM AND RENEWAL
+2.1 This Agreement shall automatically renew for successive one-year terms
+unless either party provides written notice of non-renewal at least sixty
+(60) days prior to the end of the then-current term.
+
+3. CUSTOMER OBLIGATIONS
+3.1 Customer shall notify Vendor of any change in provisioned server count
+within five (5) business days.
+
+4. SERVICE LEVELS
+4.1 Vendor shall maintain 99.95% uptime for all provisioned servers,
+measured monthly.
+
+5. FEES AND PAYMENT
+5.1 Customer shall pay $40.00 per provisioned server per month.
+5.2 Customer shall pay a monthly platform base fee of $500.00.
+5.3 Customer shall receive a permanent five percent (5%) volume discount
+off recurring fees.
+5.4 Mid-cycle server count changes shall be prorated daily.
+
+6. LIMITATION OF LIABILITY
+6.1 Neither party's aggregate liability under this Agreement shall exceed
+the fees paid by Customer in the twelve (12) months preceding the claim.
+
+7. GOVERNING LAW
+7.1 This Agreement is governed by the laws of the State of Washington.

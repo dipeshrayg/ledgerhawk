@@ -1,0 +1,65 @@
+{
+  "vendor_id": "datavault_v1",
+  "rules": [
+    {
+      "rule_id": "msa_v1:pricing.per_unit.tb",
+      "rule_key": "pricing.per_unit.tb",
+      "rule_type": "per_unit",
+      "doc_id": "msa_v1",
+      "source_name": "MSA v1 \u00a75.1",
+      "authority_rank": 0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa_v1",
+        "section": "5.1",
+        "quote": "Customer shall pay $20.00 per terabyte stored per month.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "tb",
+        "rate": "20.00"
+      }
+    },
+    {
+      "rule_id": "msa_v1:pricing.escalation.default",
+      "rule_key": "pricing.escalation.default",
+      "rule_type": "escalation",
+      "doc_id": "msa_v1",
+      "source_name": "MSA v1 \u00a75.3",
+      "authority_rank": 0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa_v1",
+        "section": "5.3",
+        "quote": "Fees may increase annually by up to 3 percent, not to exceed 6 percent cumulative.",
+        "page": null
+      },
+      "params": {
+        "pct": "3",
+        "cap_pct": "6",
+        "frequency": "annually"
+      }
+    },
+    {
+      "rule_id": "msa_v1:pricing.discount.default",
+      "rule_key": "pricing.discount.default",
+      "rule_type": "discount",
+      "doc_id": "msa_v1",
+      "source_name": "MSA v1 \u00a75.4",
+      "authority_rank": 0,
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "provenance": {
+        "doc_id": "msa_v1",
+        "section": "5.4",
+        "quote": "Customer shall receive a 5 percent discount off recurring fees for the first twelve (12) months.",
+        "page": null
+      },
+      "params": {
+        "pct": "5"
+      }
+    }
+  ]
+}

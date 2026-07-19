@@ -1,0 +1,46 @@
+{
+  "contract_id": "nimbuspay",
+  "vendor_name": "NimbusPay",
+  "parties": [
+    {
+      "name": "NimbusPay",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Master Services Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2024-06-01",
+      "executed": true,
+      "authority_rank": 0
+    },
+    {
+      "doc_id": "amend1",
+      "name": "Amendment 1",
+      "doc_type": "AMENDMENT",
+      "effective_date": "2025-06-01",
+      "executed": true,
+      "authority_rank": 1
+    }
+  ],
+  "term": {
+    "start_date": "2024-06-01",
+    "end_date": "2027-06-01",
+    "renewal_type": "manual",
+    "renewal_notice_days": null,
+    "auto_renewal_uplift_pct": null,
+    "provenance": {
+      "doc_id": "msa",
+      "section": "2.1",
+      "quote": "This Agreement has an initial term of thirty-six (36) months and shall not automatically renew; renewal requires a signed written amendment.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

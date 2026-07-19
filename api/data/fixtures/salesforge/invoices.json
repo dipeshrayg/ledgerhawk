@@ -1,0 +1,218 @@
+[
+  {
+    "invoice_id": "salesforge-202508",
+    "vendor_id": "salesforge",
+    "period_start": "2025-08-01",
+    "period_end": "2025-08-31",
+    "invoice_date": "2025-09-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202509",
+    "vendor_id": "salesforge",
+    "period_start": "2025-09-01",
+    "period_end": "2025-09-30",
+    "invoice_date": "2025-10-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202510",
+    "vendor_id": "salesforge",
+    "period_start": "2025-10-01",
+    "period_end": "2025-10-31",
+    "invoice_date": "2025-11-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "39600.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "39736.00"
+  },
+  {
+    "invoice_id": "salesforge-202511",
+    "vendor_id": "salesforge",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "invoice_date": "2025-12-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202512",
+    "vendor_id": "salesforge",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "invoice_date": "2026-01-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "34650.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "34786.00"
+  },
+  {
+    "invoice_id": "salesforge-202601",
+    "vendor_id": "salesforge",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "invoice_date": "2026-02-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202602",
+    "vendor_id": "salesforge",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "invoice_date": "2026-03-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "160.00"
+      }
+    ],
+    "total_amount": "33160.00"
+  },
+  {
+    "invoice_id": "salesforge-202603",
+    "vendor_id": "salesforge",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "invoice_date": "2026-04-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202604",
+    "vendor_id": "salesforge",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "invoice_date": "2026-05-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202605",
+    "vendor_id": "salesforge",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "invoice_date": "2026-06-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202606",
+    "vendor_id": "salesforge",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "invoice_date": "2026-07-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  },
+  {
+    "invoice_id": "salesforge-202607",
+    "vendor_id": "salesforge",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "invoice_date": "2026-08-05",
+    "line_items": [
+      {
+        "description": "user usage",
+        "amount": "33000.00"
+      },
+      {
+        "description": "storage_gb tiered usage",
+        "amount": "136.00"
+      }
+    ],
+    "total_amount": "33136.00"
+  }
+]

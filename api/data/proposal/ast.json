@@ -1,0 +1,38 @@
+{
+  "contract_id": "talentbridge_proposal",
+  "vendor_name": "TalentBridge HR Suite",
+  "parties": [
+    {
+      "name": "TalentBridge HR Suite",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "proposal",
+      "name": "TalentBridge HR Suite -- Proposal",
+      "doc_type": "PROPOSAL",
+      "effective_date": "2026-09-01",
+      "executed": false,
+      "authority_rank": 0
+    }
+  ],
+  "term": {
+    "start_date": "2026-09-01",
+    "end_date": "2027-09-01",
+    "renewal_type": "auto",
+    "renewal_notice_days": 15,
+    "auto_renewal_uplift_pct": null,
+    "provenance": {
+      "doc_id": "proposal",
+      "section": "2.1",
+      "quote": "This Agreement shall automatically renew for successive one-year terms unless Customer provides written notice of non-renewal at least fifteen (15) days before the end of the then-current term.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

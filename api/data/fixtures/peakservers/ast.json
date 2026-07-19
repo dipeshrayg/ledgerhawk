@@ -1,0 +1,38 @@
+{
+  "contract_id": "peakservers",
+  "vendor_name": "PeakServers Hosting",
+  "parties": [
+    {
+      "name": "PeakServers Hosting",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Hosting Services Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2023-05-01",
+      "executed": true,
+      "authority_rank": 0
+    }
+  ],
+  "term": {
+    "start_date": "2023-05-01",
+    "end_date": "2026-05-01",
+    "renewal_type": "auto",
+    "renewal_notice_days": 60,
+    "auto_renewal_uplift_pct": null,
+    "provenance": {
+      "doc_id": "msa",
+      "section": "2.1",
+      "quote": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least sixty (60) days prior to the end of the then-current term.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

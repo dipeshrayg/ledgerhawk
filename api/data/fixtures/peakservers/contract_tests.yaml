@@ -1,0 +1,8 @@
+vendor_id: peakservers
+tests:
+  - name: "25 servers, permanent 5% discount"
+    type: scenario
+    period_start: "2025-09-01"
+    period_end: "2025-09-30"
+    usage: {units: {server: 25}}
+    expect_total: "1425.00"

@@ -1,0 +1,29 @@
+TALENTBRIDGE HR SUITE -- COMMERCIAL PROPOSAL (UNSIGNED)
+
+Prepared for: Customer Corp.
+Date: September 1, 2026
+Status: DRAFT -- not yet executed
+
+1. SERVICES
+1.1 Vendor proposes to provide Customer with access to the TalentBridge HR
+Suite, covering benefits administration, time tracking, and performance
+management.
+
+2. TERM AND RENEWAL
+2.1 This Agreement shall automatically renew for successive one-year terms
+unless Customer provides written notice of non-renewal at least fifteen
+(15) days before the end of the then-current term.
+
+3. CUSTOMER OBLIGATIONS
+3.1 Customer shall maintain accurate active-employee counts within the
+admin console.
+
+4. FEES AND PAYMENT
+4.1 Customer shall pay $6.00 per active employee per month.
+4.2 Invoices are issued monthly and due within thirty (30) days.
+4.3 Fees may increase each quarter at Vendor's discretion based on
+prevailing market rates.
+
+5. LIMITATION OF LIABILITY
+5.1 Neither party's aggregate liability under this Agreement shall exceed
+the fees paid by Customer in the twelve (12) months preceding the claim.

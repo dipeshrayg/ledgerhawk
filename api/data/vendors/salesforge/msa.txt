@@ -1,0 +1,46 @@
+MASTER SUBSCRIPTION AGREEMENT
+
+between SalesForge CRM ("Vendor") and Customer Corp. ("Customer")
+Effective Date: March 1, 2023
+
+1. SERVICES
+1.1 Vendor shall provide Customer with access to the SalesForge customer
+relationship management platform (the "Services").
+
+2. TERM
+2.1 This Agreement commences on the Effective Date and continues for an
+initial term of thirty-six (36) months.
+
+3. RENEWAL
+3.1 This Agreement shall automatically renew for successive one-year terms
+absent written notice of non-renewal at least sixty (60) days before the
+end of the then-current term.
+
+4. CUSTOMER OBLIGATIONS
+4.1 Customer shall maintain accurate active-user counts within the admin
+console at all times.
+
+5. DATA
+5.1 Vendor shall not use Customer data to train models for other customers.
+
+6. FEES AND PAYMENT
+6.1 Customer shall pay all fees in accordance with this Section 6.
+6.2 Customer shall pay $15.00 per active user per month.
+6.3 Invoices are issued monthly and due within thirty (30) days.
+6.4 [Reserved]
+6.5 [Reserved]
+6.6 Beginning at each annual renewal starting March 1, 2026, fees may
+increase by up to five percent (5%) per year, not to exceed five percent
+(5%) cumulative above the then-current rate.
+6.7 Mid-cycle changes shall be prorated daily.
+
+7. STORAGE ADD-ON
+7.1 Additional data storage is billed at $0.20 per GB for the first 500 GB
+per month and $0.12 per GB for each GB thereafter.
+
+8. LIMITATION OF LIABILITY
+8.1 Neither party's aggregate liability under this Agreement shall exceed
+the fees paid by Customer in the twelve (12) months preceding the claim.
+
+9. GOVERNING LAW
+9.1 This Agreement is governed by the laws of the State of California.

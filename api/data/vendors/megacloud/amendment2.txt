@@ -1,0 +1,42 @@
+AMENDMENT NO. 2 TO MASTER SERVICES AGREEMENT
+
+between MegaCloud Inc. ("Vendor") and Customer Corp. ("Customer")
+Effective Date: January 1, 2025
+
+This Amendment No. 2 (the "Amendment") further amends the Master Services
+Agreement effective January 1, 2022, as previously amended by Amendment
+No. 1 (together, the "Agreement") between Vendor and Customer.
+
+1. BACKGROUND
+1.1 The parties wish to update the per-seat fee, introduce an annual
+escalation mechanism, clarify proration for mid-cycle seat changes, and
+add a one-time data migration fee in connection with Customer's platform
+migration.
+
+2. DEFINITIONS
+2.1 Capitalized terms not defined herein have the meaning given in the
+Agreement.
+
+3. REVISED PER-SEAT FEE
+3.1 Effective January 1, 2025, the per-seat fee set forth in MSA Section
+6.2 is amended to $16.50 per active seat per month.
+
+4. ANNUAL ESCALATION; CAP
+4.1 Beginning January 1, 2025, fees may increase annually by up to five
+percent (5%), provided that cumulative increases under this Section shall
+not exceed ten percent (10%) above the rate in effect as of the date of
+this Amendment.
+
+5. PRORATION
+5.1 Mid-cycle changes in seat count shall be prorated on a daily basis.
+
+6. ONE-TIME MIGRATION FEE
+6.1 Customer shall pay a one-time data migration fee of $2,500.00, due
+upon the September 2025 migration window.
+
+7. NO OTHER CHANGES
+7.1 Except as expressly modified by this Amendment, all other terms of the
+Agreement (as previously amended) remain in full force and effect.
+
+IN WITNESS WHEREOF, the parties have executed this Amendment as of the
+Effective Date above.

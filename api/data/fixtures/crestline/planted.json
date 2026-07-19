@@ -1,0 +1,23 @@
+[
+  {
+    "period": "2026-02",
+    "label": "Usage drift: billed for 124 supply kits vs. 90 actually ordered",
+    "expected_total": "1330.00",
+    "actual_total": "1738.00",
+    "delta": "408.00",
+    "meta": {
+      "true_rate": "12.00",
+      "phantom_units": 34
+    }
+  },
+  {
+    "period": "2026-05",
+    "label": "Flat-fee overcharge: monthly subscription base billed at $300 vs. contracted $250",
+    "expected_total": "1330.00",
+    "actual_total": "1380.00",
+    "delta": "50.00",
+    "meta": {
+      "billed_amount": "300.00"
+    }
+  }
+]

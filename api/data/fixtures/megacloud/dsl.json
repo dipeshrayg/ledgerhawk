@@ -1,0 +1,164 @@
+{
+  "vendor_id": "megacloud",
+  "rules": [
+    {
+      "rule_id": "msa:pricing.per_unit.seat",
+      "rule_key": "pricing.per_unit.seat",
+      "rule_type": "per_unit",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a76.2",
+      "authority_rank": 0,
+      "effective_from": "2022-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "6.2",
+        "quote": "Customer shall pay $15.00 per active seat per month, invoiced monthly in arrears.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "seat",
+        "rate": "15.00"
+      }
+    },
+    {
+      "rule_id": "amend1:pricing.discount.default",
+      "rule_key": "pricing.discount.default",
+      "rule_type": "discount",
+      "doc_id": "amend1",
+      "source_name": "Amendment 1 \u00a72",
+      "authority_rank": 1,
+      "effective_from": "2024-01-01",
+      "effective_to": "2024-12-31",
+      "provenance": {
+        "doc_id": "amend1",
+        "section": "2",
+        "quote": "Customer shall receive a loyalty discount of ten percent (10%) off the recurring subscription fees, effective January 1, 2024 through December 31, 2024.",
+        "page": null
+      },
+      "params": {
+        "pct": "10"
+      }
+    },
+    {
+      "rule_id": "amend2:pricing.per_unit.seat",
+      "rule_key": "pricing.per_unit.seat",
+      "rule_type": "per_unit",
+      "doc_id": "amend2",
+      "source_name": "Amendment 2 \u00a73",
+      "authority_rank": 2,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "amend2",
+        "section": "3",
+        "quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "seat",
+        "rate": "16.50"
+      }
+    },
+    {
+      "rule_id": "amend2:pricing.escalation.default",
+      "rule_key": "pricing.escalation.default",
+      "rule_type": "escalation",
+      "doc_id": "amend2",
+      "source_name": "Amendment 2 \u00a74",
+      "authority_rank": 2,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "amend2",
+        "section": "4",
+        "quote": "Beginning January 1, 2025, fees may increase annually by up to five percent (5%), provided that cumulative increases under this Section shall not exceed ten percent (10%) above the rate in effect as of the date of this Amendment.",
+        "page": null
+      },
+      "params": {
+        "pct": "5",
+        "cap_pct": "10",
+        "frequency": "annual"
+      }
+    },
+    {
+      "rule_id": "amend2:pricing.proration_policy",
+      "rule_key": "pricing.proration_policy",
+      "rule_type": "proration_policy",
+      "doc_id": "amend2",
+      "source_name": "Amendment 2 \u00a75",
+      "authority_rank": 2,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "amend2",
+        "section": "5",
+        "quote": "Mid-cycle changes in seat count shall be prorated on a daily basis.",
+        "page": null
+      },
+      "params": {
+        "method": "daily"
+      }
+    },
+    {
+      "rule_id": "amend2:pricing.one_time.migration",
+      "rule_key": "pricing.one_time.migration",
+      "rule_type": "one_time",
+      "doc_id": "amend2",
+      "source_name": "Amendment 2 \u00a76",
+      "authority_rank": 2,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "amend2",
+        "section": "6",
+        "quote": "Customer shall pay a one-time data migration fee of $2,500.00, due upon the September 2025 migration window.",
+        "page": null
+      },
+      "params": {
+        "amount": "2500.00",
+        "description": "Data migration fee",
+        "date": "2025-09-10"
+      }
+    },
+    {
+      "rule_id": "amend3:pricing.credit.rollover",
+      "rule_key": "pricing.credit.rollover",
+      "rule_type": "credit",
+      "doc_id": "amend3",
+      "source_name": "Amendment 3 \u00a72",
+      "authority_rank": 3,
+      "effective_from": "2025-07-01",
+      "effective_to": "2026-06-30",
+      "provenance": {
+        "doc_id": "amend3",
+        "section": "2",
+        "quote": "In recognition of the Q2 2025 service incident, Vendor shall issue Customer a monthly service credit of $200.00, effective July 1, 2025 through June 30, 2026. Any unused credit balance shall roll over to the following month.",
+        "page": null
+      },
+      "params": {
+        "amount": "200.00",
+        "rollover": true
+      }
+    },
+    {
+      "rule_id": "email1:pricing.discount.default",
+      "rule_key": "pricing.discount.default",
+      "rule_type": "discount",
+      "doc_id": "email1",
+      "source_name": "Email Agreement (2025-11-15)",
+      "authority_rank": 4,
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "provenance": {
+        "doc_id": "email1",
+        "section": "1",
+        "quote": "Confirming that MegaCloud will extend the ten percent (10%) loyalty discount under Amendment 1 through December 31, 2026, effective January 1, 2026. Please treat this email as an executed amendment to the Agreement.",
+        "page": null
+      },
+      "params": {
+        "pct": "10"
+      }
+    }
+  ]
+}

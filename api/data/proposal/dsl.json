@@ -1,0 +1,45 @@
+{
+  "vendor_id": "talentbridge_proposal",
+  "rules": [
+    {
+      "rule_id": "proposal:pricing.per_unit.employee",
+      "rule_key": "pricing.per_unit.employee",
+      "rule_type": "per_unit",
+      "doc_id": "proposal",
+      "source_name": "Proposal \u00a74.1",
+      "authority_rank": 0,
+      "effective_from": "2026-09-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "proposal",
+        "section": "4.1",
+        "quote": "Customer shall pay $6.00 per active employee per month.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "employee",
+        "rate": "6.00"
+      }
+    },
+    {
+      "rule_id": "proposal:pricing.escalation.default",
+      "rule_key": "pricing.escalation.default",
+      "rule_type": "escalation",
+      "doc_id": "proposal",
+      "source_name": "Proposal \u00a74.3",
+      "authority_rank": 0,
+      "effective_from": "2026-09-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "proposal",
+        "section": "4.3",
+        "quote": "Fees may increase each quarter at Vendor's discretion based on prevailing market rates.",
+        "page": null
+      },
+      "params": {
+        "pct": "8",
+        "frequency": "quarterly"
+      }
+    }
+  ]
+}

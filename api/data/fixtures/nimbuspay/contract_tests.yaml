@@ -1,0 +1,14 @@
+vendor_id: nimbuspay
+tests:
+  - name: "1000 employees, outside discount window -> base + per-employee"
+    type: scenario
+    period_start: "2026-02-01"
+    period_end: "2026-02-28"
+    usage: {units: {employee: 1000}}
+    expect_total: "8800.00"
+  - name: "No escalation clause should exist (fixed-rate contract)"
+    type: invariant
+    rule_key: "pricing.escalation.default"
+    field: pct
+    operator: "not_present"
+    value: null

@@ -1,0 +1,40 @@
+{
+  "_disclaimer": "Illustrative market-standard terms bundled for demo purposes only. Not sourced from real market data -- see docs/DEMO_DATA.md and README Limitations.",
+  "categories": {
+    "SaaS": {
+      "escalation_cap_pct_annual": 5,
+      "escalation_frequency": "annual",
+      "renewal_notice_days": 60,
+      "proration_policy": "daily",
+      "discount_typical_pct": 10
+    },
+    "Cloud Hosting": {
+      "escalation_cap_pct_annual": 5,
+      "escalation_frequency": "annual",
+      "renewal_notice_days": 60,
+      "proration_policy": "daily",
+      "discount_typical_pct": 5
+    },
+    "Payroll": {
+      "escalation_cap_pct_annual": 3,
+      "escalation_frequency": "annual",
+      "renewal_notice_days": 90,
+      "proration_policy": "daily",
+      "discount_typical_pct": 10
+    },
+    "HR Suite": {
+      "escalation_cap_pct_annual": 5,
+      "escalation_frequency": "annual",
+      "renewal_notice_days": 60,
+      "proration_policy": "daily",
+      "discount_typical_pct": 10
+    },
+    "Office Supplies": {
+      "escalation_cap_pct_annual": 3,
+      "escalation_frequency": "annual",
+      "renewal_notice_days": 30,
+      "proration_policy": "none",
+      "discount_typical_pct": 5
+    }
+  }
+}

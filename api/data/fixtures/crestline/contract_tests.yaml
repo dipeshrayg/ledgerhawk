@@ -1,0 +1,8 @@
+vendor_id: crestline
+tests:
+  - name: "90 kits, base + per-kit, no escalation"
+    type: scenario
+    period_start: "2025-09-01"
+    period_end: "2025-09-30"
+    usage: {units: {supply_kit: 90}}
+    expect_total: "1330.00"

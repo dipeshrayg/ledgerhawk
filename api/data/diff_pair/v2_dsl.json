@@ -1,0 +1,46 @@
+{
+  "vendor_id": "datavault_v2",
+  "rules": [
+    {
+      "rule_id": "msa_v2:pricing.per_unit.tb",
+      "rule_key": "pricing.per_unit.tb",
+      "rule_type": "per_unit",
+      "doc_id": "msa_v2",
+      "source_name": "MSA v2 \u00a75.1",
+      "authority_rank": 0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa_v2",
+        "section": "5.1",
+        "quote": "Customer shall pay $24.00 per terabyte stored per month.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "tb",
+        "rate": "24.00"
+      }
+    },
+    {
+      "rule_id": "msa_v2:pricing.escalation.default",
+      "rule_key": "pricing.escalation.default",
+      "rule_type": "escalation",
+      "doc_id": "msa_v2",
+      "source_name": "MSA v2 \u00a75.3",
+      "authority_rank": 0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa_v2",
+        "section": "5.3",
+        "quote": "Fees may increase quarterly by up to 6 percent, not to exceed 15 percent cumulative.",
+        "page": null
+      },
+      "params": {
+        "pct": "6",
+        "cap_pct": "15",
+        "frequency": "quarterly"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "contract_id": "crestline",
+  "vendor_name": "Crestline Office Supplies",
+  "parties": [
+    {
+      "name": "Crestline Office Supplies",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Supply Services Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2023-01-01",
+      "executed": true,
+      "authority_rank": 0
+    }
+  ],
+  "term": {
+    "start_date": "2023-01-01",
+    "end_date": "2026-01-01",
+    "renewal_type": "auto",
+    "renewal_notice_days": 20,
+    "auto_renewal_uplift_pct": null,
+    "provenance": {
+      "doc_id": "msa",
+      "section": "2.1",
+      "quote": "This Agreement shall automatically renew annually unless Customer provides written notice of non-renewal at least twenty (20) days before the renewal date.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

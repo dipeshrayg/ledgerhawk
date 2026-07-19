@@ -1,0 +1,14 @@
+vendor_id: salesforge
+tests:
+  - name: "2200 users, no escalation active yet (2025) -> flat $15/user"
+    type: scenario
+    period_start: "2025-09-01"
+    period_end: "2025-09-30"
+    usage: {units: {user: 2200}}
+    expect_total: "33000.00"
+  - name: "Escalation cap must never exceed 5%"
+    type: invariant
+    rule_key: "pricing.escalation.default"
+    field: cap_pct
+    operator: "<="
+    value: "5"

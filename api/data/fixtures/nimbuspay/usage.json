@@ -1,0 +1,122 @@
+[
+  {
+    "period_start": "2025-08-01",
+    "period_end": "2025-08-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2025-09-01",
+    "period_end": "2025-09-30",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2025-10-01",
+    "period_end": "2025-10-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  },
+  {
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "seats": null,
+    "units": {
+      "employee": 1000
+    },
+    "one_time_charges": [],
+    "seat_change": null
+  }
+]

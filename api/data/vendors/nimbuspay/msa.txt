@@ -1,0 +1,37 @@
+MASTER SERVICES AGREEMENT
+
+between NimbusPay ("Vendor") and Customer Corp. ("Customer")
+Effective Date: June 1, 2024
+
+1. TERM
+1.1 [Reserved]
+2. INITIAL TERM
+2.1 This Agreement has an initial term of thirty-six (36) months and shall
+not automatically renew; renewal requires a signed written amendment.
+
+3. SERVICES
+3.1 Vendor shall process Customer's payroll through the Nimbus payroll
+platform, including tax withholding, filing, and direct deposit.
+
+4. CUSTOMER OBLIGATIONS
+4.1 Customer shall maintain accurate employee headcount records within the
+Nimbus platform.
+
+5. FEES AND PAYMENT
+5.1 Customer shall pay $8.00 per active employee per month, processed
+through the Nimbus payroll platform.
+5.2 In addition to per-employee fees, Customer shall pay a platform base
+fee of $300.00 per month.
+5.3 Invoices are issued monthly and due within thirty (30) days.
+5.4 Mid-cycle employee count changes shall be prorated daily.
+
+6. COMPLIANCE
+6.1 Vendor shall remain current on all applicable federal and state
+payroll tax filing requirements on Customer's behalf.
+
+7. LIMITATION OF LIABILITY
+7.1 Neither party's aggregate liability under this Agreement shall exceed
+the fees paid by Customer in the twelve (12) months preceding the claim.
+
+8. GOVERNING LAW
+8.1 This Agreement is governed by the laws of the State of Texas.

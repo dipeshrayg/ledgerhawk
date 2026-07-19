@@ -1,0 +1,38 @@
+{
+  "contract_id": "datavault_v1",
+  "vendor_name": "DataVault Storage",
+  "parties": [
+    {
+      "name": "DataVault Storage",
+      "role": "vendor"
+    },
+    {
+      "name": "Customer Corp.",
+      "role": "customer"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa_v1",
+      "name": "DataVault MSA (v1)",
+      "doc_type": "MSA",
+      "effective_date": "2025-01-01",
+      "executed": true,
+      "authority_rank": 0
+    }
+  ],
+  "term": {
+    "start_date": "2025-01-01",
+    "end_date": "2027-01-01",
+    "renewal_type": "auto",
+    "renewal_notice_days": 60,
+    "auto_renewal_uplift_pct": null,
+    "provenance": {
+      "doc_id": "msa_v1",
+      "section": "2.1",
+      "quote": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least 60 days prior to the end of the then-current term.",
+      "page": null
+    }
+  },
+  "pricing_clauses": []
+}

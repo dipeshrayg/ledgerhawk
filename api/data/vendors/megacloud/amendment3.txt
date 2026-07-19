@@ -1,0 +1,26 @@
+AMENDMENT NO. 3 TO MASTER SERVICES AGREEMENT
+
+between MegaCloud Inc. ("Vendor") and Customer Corp. ("Customer")
+Effective Date: July 1, 2025
+
+This Amendment No. 3 (the "Amendment") further amends the Master Services
+Agreement effective January 1, 2022, as previously amended (together, the
+"Agreement") between Vendor and Customer.
+
+1. BACKGROUND
+1.1 Vendor experienced a service incident affecting the Services during
+the second quarter of 2025. In recognition of this incident, Vendor agrees
+to issue Customer a monthly service credit as set forth below.
+
+2. SERVICE CREDIT
+2.1 In recognition of the Q2 2025 service incident, Vendor shall issue
+Customer a monthly service credit of $200.00, effective July 1, 2025
+through June 30, 2026. Any unused credit balance shall roll over to the
+following month.
+
+3. NO OTHER CHANGES
+3.1 Except as expressly modified by this Amendment, all other terms of the
+Agreement (as previously amended) remain in full force and effect.
+
+IN WITNESS WHEREOF, the parties have executed this Amendment as of the
+Effective Date above.

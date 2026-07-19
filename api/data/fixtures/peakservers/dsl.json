@@ -1,0 +1,83 @@
+{
+  "vendor_id": "peakservers",
+  "rules": [
+    {
+      "rule_id": "msa:pricing.per_unit.server",
+      "rule_key": "pricing.per_unit.server",
+      "rule_type": "per_unit",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a75.1",
+      "authority_rank": 0,
+      "effective_from": "2023-05-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "5.1",
+        "quote": "Customer shall pay $40.00 per provisioned server per month.",
+        "page": null
+      },
+      "params": {
+        "unit_name": "server",
+        "rate": "40.00"
+      }
+    },
+    {
+      "rule_id": "msa:pricing.flat.base",
+      "rule_key": "pricing.flat.base",
+      "rule_type": "flat_fee",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a75.2",
+      "authority_rank": 0,
+      "effective_from": "2023-05-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "5.2",
+        "quote": "Customer shall pay a monthly platform base fee of $500.00.",
+        "page": null
+      },
+      "params": {
+        "amount": "500.00",
+        "cadence": "monthly"
+      }
+    },
+    {
+      "rule_id": "msa:pricing.discount.default",
+      "rule_key": "pricing.discount.default",
+      "rule_type": "discount",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a75.3",
+      "authority_rank": 0,
+      "effective_from": "2023-05-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "5.3",
+        "quote": "Customer shall receive a permanent five percent (5%) volume discount off recurring fees.",
+        "page": null
+      },
+      "params": {
+        "pct": "5"
+      }
+    },
+    {
+      "rule_id": "msa:pricing.proration_policy",
+      "rule_key": "pricing.proration_policy",
+      "rule_type": "proration_policy",
+      "doc_id": "msa",
+      "source_name": "MSA \u00a75.4",
+      "authority_rank": 0,
+      "effective_from": "2023-05-01",
+      "effective_to": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "5.4",
+        "quote": "Mid-cycle server count changes shall be prorated daily.",
+        "page": null
+      },
+      "params": {
+        "method": "daily"
+      }
+    }
+  ]
+}
