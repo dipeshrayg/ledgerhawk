@@ -1,2 +1,16 @@
+fastapi==0.139.0
+uvicorn[standard]==0.51.0
+sqlalchemy==2.0.51
 pydantic==2.13.4
+pdfplumber==0.11.10
+reportlab==5.0.0
+PyYAML==6.0.3
+httpx==0.28.1
 pytest==9.1.1
+python-multipart==0.0.32
+requests==2.34.2
+
+# Optional, for production deployments: set DATABASE_URL to a Postgres DSN
+# (see api/app/db.py) and install one driver below. Not installed by
+# default -- demo mode runs entirely on the bundled SQLite file.
+# psycopg[binary]==3.2.3
