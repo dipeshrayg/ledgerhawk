@@ -1,0 +1,11 @@
+{
+  "invoice_id": "peakservers-202508",
+  "period_start": "2025-08-01",
+  "period_end": "2025-08-31",
+  "invoice_date": "2025-09-05",
+  "line_items": [
+    { "description": "server usage", "amount": "1000.00" },
+    { "description": "Flat fee", "amount": "500.00" },
+    { "description": "Discount", "amount": "-75.00" }
+  ]
+}

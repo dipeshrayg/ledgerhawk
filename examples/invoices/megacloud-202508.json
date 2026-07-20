@@ -1,0 +1,10 @@
+{
+  "invoice_id": "megacloud-202508",
+  "period_start": "2025-08-01",
+  "period_end": "2025-08-31",
+  "invoice_date": "2025-09-05",
+  "line_items": [
+    { "description": "seat usage", "amount": "186037.50" },
+    { "description": "Credit applied", "amount": "-200.00" }
+  ]
+}
