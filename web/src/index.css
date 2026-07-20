@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* Marketing-page design tokens (Home, Terms, Privacy, Cookies). The app
+   shell under /app keeps its existing neutral/indigo palette on purpose -
+   this is scoped to the editorial marketing surface, not a full app
+   re-theme. */
+@theme {
+  --color-paper: #faf7f2;
+  --color-paper-dark: #14120f;
+  --color-ink: #1c1815;
+  --color-ink-dark: #eeeae2;
+  --color-accent: #b3381f;
+  /* Brighter in dark mode on purpose: #b3381f against the dark paper is
+     3.12:1, below WCAG AA's 4.5:1 for normal text. #e0573a clears 4.98:1
+     on the same background while staying in the same hue. */
+  --color-accent-dark: #e0573a;
+  --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+  html { color-scheme: light; }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f7f7f9;
+  color: #16171d;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f1014;
+    color: #e6e6ea;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.35);
+  border-radius: 6px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* One rule instead of a focus: class on every button/link/input in the
+   app -- keyboard users get a visible ring on every interactive element,
+   mouse users see nothing extra. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* Respect the OS-level "reduce motion" preference -- disables the
+   drawer slide, hover transitions, and smooth-scroll everywhere at once
+   instead of adding a guard to every animated component individually. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
