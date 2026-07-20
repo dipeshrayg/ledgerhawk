@@ -148,3 +148,34 @@ it: nothing here requires undoing a decision already made.
   not the real wall clock, so the Renewal Risk Calendar and Rule Inspector
   stay meaningful whenever this is actually run, rather than degrading as
   real time passes the demo data's shelf life.
+
+## Deployment targets: one pipeline, two adapters
+
+LedgerHawk ships two ways to run it, and it's worth being explicit that
+these are two *adapters* over the same core, not two systems that happen
+to look similar:
+
+1. **Real backend** (`./run.sh`): FastAPI serves every endpoint live,
+   computing reconciliation/forecast/diff/copilot answers per request
+   against the database described above.
+2. **Static site** (GitHub Pages, `web/vite.config.js`'s `VITE_STATIC`
+   build): no server at all. `api/scripts/export_static.py` boots the
+   *exact same* FastAPI app in-process via `TestClient`, calls every route
+   the frontend needs, and dumps the real JSON responses to
+   `web/public/static-data/**/*.json`. `web/src/lib/api.js` has one
+   `STATIC` boolean that switches each endpoint between a live `fetch` and
+   reading the matching static file. The Audit Copilot's free-text search
+   is the one path re-implemented in JavaScript
+   (`web/src/lib/copilotStatic.js`) rather than proxied, because it needs
+   to answer arbitrary questions with no server to ask - the intent-
+   matching rules mirror `app/pipeline/copilot.py`'s patterns by hand, and
+   `copilotStatic.test.js` runs the same 8 scripted questions as
+   `test_copilot.py` so a change to one side that isn't mirrored on the
+   other fails a test instead of silently drifting.
+
+The reason this is a design decision and not a shortcut: nothing about
+reconciliation, forecasting, or diffing is reimplemented for the static
+path. The static JSON is the real backend's own output, captured once at
+build time instead of computed per request. A bug in the billing engine
+shows up identically in both deployment targets, because there is only one
+billing engine.
