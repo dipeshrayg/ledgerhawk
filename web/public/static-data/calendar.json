@@ -1,0 +1,113 @@
+{
+  "today": "2026-07-15",
+  "events": [
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "type": "renewal_notice_deadline",
+      "date": "2026-10-03",
+      "days_remaining": 80,
+      "description": "Last day to send non-renewal notice (90-day window).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "crestline",
+      "vendor_name": "Crestline Office Supplies",
+      "type": "renewal_notice_deadline",
+      "date": "2026-12-12",
+      "days_remaining": 150,
+      "description": "Last day to send non-renewal notice (20-day window).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "type": "discount_expiry",
+      "date": "2026-12-31",
+      "days_remaining": 169,
+      "description": "Discount (Email Agreement (2025-11-15)) expires.",
+      "projected_cost_impact_pct": 10.0
+    },
+    {
+      "vendor_id": "salesforge",
+      "vendor_name": "SalesForge CRM",
+      "type": "renewal_notice_deadline",
+      "date": "2026-12-31",
+      "days_remaining": 169,
+      "description": "Last day to send non-renewal notice (60-day window).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "type": "renewal",
+      "date": "2027-01-01",
+      "days_remaining": 170,
+      "description": "Contract renews (auto) with a 15.0% uplift.",
+      "projected_cost_impact_pct": 15.0
+    },
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "type": "escalation_effective",
+      "date": "2027-01-01",
+      "days_remaining": 170,
+      "description": "Next scheduled escalation (Amendment 2 \u00a74, +5%).",
+      "projected_cost_impact_pct": 5.0
+    },
+    {
+      "vendor_id": "crestline",
+      "vendor_name": "Crestline Office Supplies",
+      "type": "renewal",
+      "date": "2027-01-01",
+      "days_remaining": 170,
+      "description": "Contract renews (auto).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "salesforge",
+      "vendor_name": "SalesForge CRM",
+      "type": "renewal",
+      "date": "2027-03-01",
+      "days_remaining": 229,
+      "description": "Contract renews (auto).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "salesforge",
+      "vendor_name": "SalesForge CRM",
+      "type": "escalation_effective",
+      "date": "2027-03-01",
+      "days_remaining": 229,
+      "description": "Next scheduled escalation (MSA \u00a76.6, +5%).",
+      "projected_cost_impact_pct": 5.0
+    },
+    {
+      "vendor_id": "peakservers",
+      "vendor_name": "PeakServers Hosting",
+      "type": "renewal_notice_deadline",
+      "date": "2027-03-02",
+      "days_remaining": 230,
+      "description": "Last day to send non-renewal notice (60-day window).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "peakservers",
+      "vendor_name": "PeakServers Hosting",
+      "type": "renewal",
+      "date": "2027-05-01",
+      "days_remaining": 290,
+      "description": "Contract renews (auto).",
+      "projected_cost_impact_pct": null
+    },
+    {
+      "vendor_id": "nimbuspay",
+      "vendor_name": "NimbusPay",
+      "type": "renewal",
+      "date": "2027-06-01",
+      "days_remaining": 321,
+      "description": "Contract renews (manual).",
+      "projected_cost_impact_pct": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "vendor_id": "megacloud",
+  "findings": [
+    {
+      "finding_id": "6a70b9ca-ad22-401e-9c09-a07e05bd86df",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202508",
+      "rule_id": "amend2:pricing.per_unit.seat",
+      "rule_key": "pricing.per_unit.seat",
+      "severity": "high",
+      "clause_quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.",
+      "clause_source": "Amendment 2 \u00a73",
+      "expected_amount": "181300.00",
+      "actual_amount": "185837.50",
+      "delta": "4537.50",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 4537.50.",
+      "math_trace": [
+        "seat usage: expected 181500.00, billed 186037.50 (overcharge of 4537.50)"
+      ]
+    },
+    {
+      "finding_id": "bf820680-56ed-44c6-81cb-eb780faec2e0",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202509",
+      "rule_id": "amend2:pricing.one_time.migration",
+      "rule_key": "pricing.one_time.migration",
+      "severity": "high",
+      "clause_quote": "Customer shall pay a one-time data migration fee of $2,500.00, due upon the September 2025 migration window.",
+      "clause_source": "Amendment 2 \u00a76",
+      "expected_amount": "183800.00",
+      "actual_amount": "186300.00",
+      "delta": "2500.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 2500.00.",
+      "math_trace": [
+        "Data migration fee: expected 0.00, billed 2500.00 (overcharge of 2500.00)"
+      ]
+    },
+    {
+      "finding_id": "71b2b18e-2053-46c0-beee-fecd80b2774c",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202511",
+      "rule_id": "amend2:pricing.per_unit.seat",
+      "rule_key": "pricing.per_unit.seat",
+      "severity": "high",
+      "clause_quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.",
+      "clause_source": "Amendment 2 \u00a73",
+      "expected_amount": "196150.00",
+      "actual_amount": "211000.00",
+      "delta": "14850.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 14850.00.",
+      "math_trace": [
+        "seat usage: expected 196350.00, billed 211200.00 (overcharge of 14850.00)"
+      ]
+    },
+    {
+      "finding_id": "f992987a-ef05-47a3-9e12-37eb4344c07f",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202601",
+      "rule_id": "amend2:pricing.per_unit.seat",
+      "rule_key": "pricing.per_unit.seat",
+      "severity": "high",
+      "clause_quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.",
+      "clause_source": "Amendment 2 \u00a73",
+      "expected_amount": "199441.60",
+      "actual_amount": "231057.60",
+      "delta": "31616.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 31616.00.",
+      "math_trace": [
+        "seat usage: expected 221824.00, billed 253440.00 (overcharge of 31616.00)"
+      ]
+    },
+    {
+      "finding_id": "d61e37f4-325c-4f51-be95-2b4728acc407",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202603",
+      "rule_id": "amend3:pricing.credit.rollover",
+      "rule_key": "pricing.credit.rollover",
+      "severity": "medium",
+      "clause_quote": "In recognition of the Q2 2025 service incident, Vendor shall issue Customer a monthly service credit of $200.00, effective July 1, 2025 through June 30, 2026. Any unused credit balance shall roll over to the following month.",
+      "clause_source": "Amendment 3 \u00a72",
+      "expected_amount": "199441.60",
+      "actual_amount": "199641.60",
+      "delta": "200.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 200.00.",
+      "math_trace": [
+        "Credit applied: expected -200.00, billed 0.00 (overcharge of 200.00)"
+      ]
+    },
+    {
+      "finding_id": "d9e5a794-08a8-462c-adfb-e370e3257071",
+      "vendor_id": "megacloud",
+      "invoice_id": "megacloud-202605",
+      "rule_id": "email1:pricing.discount.default",
+      "rule_key": "pricing.discount.default",
+      "severity": "high",
+      "clause_quote": "Confirming that MegaCloud will extend the ten percent (10%) loyalty discount under Amendment 1 through December 31, 2026, effective January 1, 2026. Please treat this email as an executed amendment to the Agreement.",
+      "clause_source": "Email Agreement (2025-11-15)",
+      "expected_amount": "199441.60",
+      "actual_amount": "221624.00",
+      "delta": "22182.40",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 22182.40.",
+      "math_trace": [
+        "Discount: expected -22182.40, billed 0.00 (overcharge of 22182.40)"
+      ]
+    }
+  ]
+}

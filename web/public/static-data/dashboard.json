@@ -1,0 +1,106 @@
+{
+  "demo_mode": true,
+  "llm_mode": "demo",
+  "total_recovered": "86420.40",
+  "forecasted_12mo_leakage_delta": "480710.80",
+  "compliance_pct": 76.7,
+  "total_invoices": 60,
+  "failing_invoices": 14,
+  "vendor_risk_ranking": [
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "total_delta": 75885.9,
+      "finding_count": 6
+    },
+    {
+      "vendor_id": "salesforge",
+      "vendor_name": "SalesForge CRM",
+      "total_delta": 8274.0,
+      "finding_count": 3
+    },
+    {
+      "vendor_id": "nimbuspay",
+      "vendor_name": "NimbusPay",
+      "total_delta": 1802.5,
+      "finding_count": 3
+    },
+    {
+      "vendor_id": "crestline",
+      "vendor_name": "Crestline Office Supplies",
+      "total_delta": 458.0,
+      "finding_count": 2
+    }
+  ],
+  "top_violating_clauses": [
+    {
+      "rule_key": "pricing.per_unit.seat",
+      "total_delta": 51003.5,
+      "clause_quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month."
+    },
+    {
+      "rule_key": "pricing.discount.default",
+      "total_delta": 22182.4,
+      "clause_quote": "Confirming that MegaCloud will extend the ten percent (10%) loyalty discount under Amendment 1 through December 31, 2026, effective January 1, 2026. Please treat this email as an executed amendment to the Agreement."
+    },
+    {
+      "rule_key": "pricing.per_unit.user",
+      "total_delta": 8250.0,
+      "clause_quote": "Customer shall pay $15.00 per active user per month."
+    },
+    {
+      "rule_key": "pricing.one_time.migration",
+      "total_delta": 2500.0,
+      "clause_quote": "Customer shall pay a one-time data migration fee of $2,500.00, due upon the September 2025 migration window."
+    },
+    {
+      "rule_key": "pricing.one_time.tax_filing",
+      "total_delta": 1200.0,
+      "clause_quote": "Customer shall pay a one-time year-end tax filing fee of $1,200.00, invoiced in December 2025."
+    }
+  ],
+  "upcoming_renewals_90d": [],
+  "monthly_trend": [
+    {
+      "month": "202508",
+      "recovered": "4537.50"
+    },
+    {
+      "month": "202509",
+      "recovered": "2500.00"
+    },
+    {
+      "month": "202510",
+      "recovered": "6600.00"
+    },
+    {
+      "month": "202511",
+      "recovered": "14850.00"
+    },
+    {
+      "month": "202512",
+      "recovered": "2850.00"
+    },
+    {
+      "month": "202601",
+      "recovered": "32168.50"
+    },
+    {
+      "month": "202602",
+      "recovered": "432.00"
+    },
+    {
+      "month": "202603",
+      "recovered": "200.00"
+    },
+    {
+      "month": "202605",
+      "recovered": "22232.40"
+    },
+    {
+      "month": "202607",
+      "recovered": "50.00"
+    }
+  ],
+  "vendor_count": 5
+}

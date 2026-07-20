@@ -1,0 +1,175 @@
+{
+  "vendor_id": "nimbuspay",
+  "vendor_name": "NimbusPay",
+  "category": "Payroll",
+  "ast": {
+    "contract_id": "nimbuspay",
+    "vendor_name": "NimbusPay",
+    "parties": [
+      {
+        "name": "NimbusPay",
+        "role": "vendor"
+      },
+      {
+        "name": "Customer Corp.",
+        "role": "customer"
+      }
+    ],
+    "documents": [
+      {
+        "doc_id": "msa",
+        "name": "Master Services Agreement",
+        "doc_type": "MSA",
+        "effective_date": "2024-06-01",
+        "executed": true,
+        "authority_rank": 0
+      },
+      {
+        "doc_id": "amend1",
+        "name": "Amendment 1",
+        "doc_type": "AMENDMENT",
+        "effective_date": "2025-06-01",
+        "executed": true,
+        "authority_rank": 1
+      }
+    ],
+    "term": {
+      "start_date": "2024-06-01",
+      "end_date": "2027-06-01",
+      "renewal_type": "manual",
+      "renewal_notice_days": null,
+      "auto_renewal_uplift_pct": null,
+      "provenance": {
+        "doc_id": "msa",
+        "section": "2.1",
+        "quote": "This Agreement has an initial term of thirty-six (36) months and shall not automatically renew; renewal requires a signed written amendment.",
+        "page": null
+      }
+    },
+    "pricing_clauses": []
+  },
+  "dsl": {
+    "vendor_id": "nimbuspay",
+    "rules": [
+      {
+        "rule_id": "msa:pricing.per_unit.employee",
+        "rule_key": "pricing.per_unit.employee",
+        "rule_type": "per_unit",
+        "doc_id": "msa",
+        "source_name": "MSA \u00a75.1",
+        "authority_rank": 0,
+        "effective_from": "2024-06-01",
+        "effective_to": null,
+        "provenance": {
+          "doc_id": "msa",
+          "section": "5.1",
+          "quote": "Customer shall pay $8.00 per active employee per month, processed through the Nimbus payroll platform.",
+          "page": null
+        },
+        "params": {
+          "unit_name": "employee",
+          "rate": "8.00"
+        }
+      },
+      {
+        "rule_id": "msa:pricing.flat.base",
+        "rule_key": "pricing.flat.base",
+        "rule_type": "flat_fee",
+        "doc_id": "msa",
+        "source_name": "MSA \u00a75.2",
+        "authority_rank": 0,
+        "effective_from": "2024-06-01",
+        "effective_to": null,
+        "provenance": {
+          "doc_id": "msa",
+          "section": "5.2",
+          "quote": "In addition to per-employee fees, Customer shall pay a platform base fee of $300.00 per month.",
+          "page": null
+        },
+        "params": {
+          "amount": "300.00",
+          "cadence": "monthly"
+        }
+      },
+      {
+        "rule_id": "msa:pricing.proration_policy",
+        "rule_key": "pricing.proration_policy",
+        "rule_type": "proration_policy",
+        "doc_id": "msa",
+        "source_name": "MSA \u00a75.4",
+        "authority_rank": 0,
+        "effective_from": "2024-06-01",
+        "effective_to": null,
+        "provenance": {
+          "doc_id": "msa",
+          "section": "5.4",
+          "quote": "Mid-cycle employee count changes shall be prorated daily.",
+          "page": null
+        },
+        "params": {
+          "method": "daily"
+        }
+      },
+      {
+        "rule_id": "amend1:pricing.per_unit.employee",
+        "rule_key": "pricing.per_unit.employee",
+        "rule_type": "per_unit",
+        "doc_id": "amend1",
+        "source_name": "Amendment 1 \u00a72",
+        "authority_rank": 1,
+        "effective_from": "2025-06-01",
+        "effective_to": null,
+        "provenance": {
+          "doc_id": "amend1",
+          "section": "2",
+          "quote": "Effective June 1, 2025, the per-employee fee set forth in MSA Section 5.1 is amended to $8.50 per active employee per month.",
+          "page": null
+        },
+        "params": {
+          "unit_name": "employee",
+          "rate": "8.50"
+        }
+      },
+      {
+        "rule_id": "amend1:pricing.discount.default",
+        "rule_key": "pricing.discount.default",
+        "rule_type": "discount",
+        "doc_id": "amend1",
+        "source_name": "Amendment 1 \u00a73",
+        "authority_rank": 1,
+        "effective_from": "2025-06-01",
+        "effective_to": "2025-11-30",
+        "provenance": {
+          "doc_id": "amend1",
+          "section": "3",
+          "quote": "Customer shall receive an onboarding discount of fifteen percent (15%) off recurring fees for the six-month period from June 1, 2025 through November 30, 2025.",
+          "page": null
+        },
+        "params": {
+          "pct": "15"
+        }
+      },
+      {
+        "rule_id": "amend1:pricing.one_time.tax_filing",
+        "rule_key": "pricing.one_time.tax_filing",
+        "rule_type": "one_time",
+        "doc_id": "amend1",
+        "source_name": "Amendment 1 \u00a74",
+        "authority_rank": 1,
+        "effective_from": "2025-06-01",
+        "effective_to": null,
+        "provenance": {
+          "doc_id": "amend1",
+          "section": "4",
+          "quote": "Customer shall pay a one-time year-end tax filing fee of $1,200.00, invoiced in December 2025.",
+          "page": null
+        },
+        "params": {
+          "amount": "1200.00",
+          "description": "Year-end tax filing fee",
+          "date": "2025-12-01"
+        }
+      }
+    ]
+  }
+}

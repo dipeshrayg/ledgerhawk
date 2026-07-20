@@ -1,0 +1,87 @@
+{
+  "vendor_id": "salesforge",
+  "as_of": "2026-07-15",
+  "effective_terms": [
+    {
+      "rule_key": "pricing.per_unit.user",
+      "rule_type": "per_unit",
+      "params": {
+        "unit_name": "user",
+        "rate": "15.00"
+      },
+      "source_name": "MSA \u00a76.2",
+      "doc_id": "msa",
+      "effective_from": "2023-03-01",
+      "effective_to": null,
+      "provenance_quote": "Customer shall pay $15.00 per active user per month.",
+      "provenance_section": "6.2",
+      "superseded_rule_ids": []
+    },
+    {
+      "rule_key": "pricing.escalation.default",
+      "rule_type": "escalation",
+      "params": {
+        "pct": "5",
+        "cap_pct": "5",
+        "frequency": "annual"
+      },
+      "source_name": "MSA \u00a76.6",
+      "doc_id": "msa",
+      "effective_from": "2026-03-01",
+      "effective_to": null,
+      "provenance_quote": "Beginning at each annual renewal starting March 1, 2026, fees may increase by up to five percent (5%) per year, not to exceed five percent (5%) cumulative above the then-current rate.",
+      "provenance_section": "6.6",
+      "superseded_rule_ids": []
+    },
+    {
+      "rule_key": "pricing.volume.storage_gb",
+      "rule_type": "volume_tier",
+      "params": {
+        "unit_name": "storage_gb",
+        "tiers": [
+          {
+            "min_units": 1,
+            "max_units": 500,
+            "rate": "0.20"
+          },
+          {
+            "min_units": 501,
+            "max_units": null,
+            "rate": "0.12"
+          }
+        ]
+      },
+      "source_name": "MSA \u00a77.1",
+      "doc_id": "msa",
+      "effective_from": "2023-03-01",
+      "effective_to": null,
+      "provenance_quote": "Additional data storage is billed at $0.20 per GB for the first 500 GB per month and $0.12 per GB for each GB thereafter.",
+      "provenance_section": "7.1",
+      "superseded_rule_ids": []
+    },
+    {
+      "rule_key": "pricing.proration_policy",
+      "rule_type": "proration_policy",
+      "params": {
+        "method": "daily"
+      },
+      "source_name": "MSA \u00a76.7",
+      "doc_id": "msa",
+      "effective_from": "2023-03-01",
+      "effective_to": null,
+      "provenance_quote": "Mid-cycle changes shall be prorated daily.",
+      "provenance_section": "6.7",
+      "superseded_rule_ids": []
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Master Subscription Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2023-03-01",
+      "executed": true,
+      "authority_rank": 0
+    }
+  ]
+}

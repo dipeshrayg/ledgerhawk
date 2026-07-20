@@ -1,0 +1,23 @@
+{
+  "vendor_id": "nimbuspay",
+  "invoice_id": "nimbuspay-202512",
+  "letter": "Re: Billing Discrepancy on Invoice nimbuspay-202512\n\nTo the Billing Department, NimbusPay:\n\nWe are writing to dispute a discrepancy identified on invoice nimbuspay-202512, covering the\nbilling period 2025-12-01 through 2025-12-31.\n\nPer the governing clause (Amendment 1 \u00a74):\n\n    \"Customer shall pay a one-time year-end tax filing fee of $1,200.00, invoiced in December 2025.\"\n\nOur records show the contractually correct charge for this period is $10,000.00.\nThe invoice as billed totals $11,200.00, a discrepancy of $1,200.00.\n\nCalculation:\n  - Year-end tax filing fee: expected 0.00, billed 1200.00 (overcharge of 1200.00)\n\nWe request a corrected invoice or credit memo reflecting the $1,200.00 adjustment within\nthirty (30) days. Please contact us with any questions.\n\nRegards,\nAccounts Payable\n",
+  "finding": {
+    "finding_id": "081494b2-dd0a-413e-9158-2bceb6e695a8",
+    "vendor_id": "nimbuspay",
+    "invoice_id": "nimbuspay-202512",
+    "rule_id": "amend1:pricing.one_time.tax_filing",
+    "rule_key": "pricing.one_time.tax_filing",
+    "severity": "high",
+    "clause_quote": "Customer shall pay a one-time year-end tax filing fee of $1,200.00, invoiced in December 2025.",
+    "clause_source": "Amendment 1 \u00a74",
+    "expected_amount": "10000.00",
+    "actual_amount": "11200.00",
+    "delta": "1200.00",
+    "confidence": 1.0,
+    "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 1200.00.",
+    "math_trace": [
+      "Year-end tax filing fee: expected 0.00, billed 1200.00 (overcharge of 1200.00)"
+    ]
+  }
+}

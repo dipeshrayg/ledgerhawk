@@ -1,0 +1,156 @@
+{
+  "vendor_id": "megacloud",
+  "series": [
+    {
+      "period_start": "2026-08-01",
+      "total": "199641.60"
+    },
+    {
+      "period_start": "2026-09-01",
+      "total": "199641.60"
+    },
+    {
+      "period_start": "2026-10-01",
+      "total": "199641.60"
+    },
+    {
+      "period_start": "2026-11-01",
+      "total": "199641.60"
+    },
+    {
+      "period_start": "2026-12-01",
+      "total": "199641.60"
+    },
+    {
+      "period_start": "2027-01-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-02-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-03-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-04-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-05-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-06-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-07-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-08-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-09-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-10-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-11-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2027-12-01",
+      "total": "267136.00"
+    },
+    {
+      "period_start": "2028-01-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-02-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-03-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-04-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-05-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-06-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-07-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-08-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-09-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-10-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-11-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2028-12-01",
+      "total": "307200.00"
+    },
+    {
+      "period_start": "2029-01-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-02-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-03-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-04-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-05-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-06-01",
+      "total": "353280.00"
+    },
+    {
+      "period_start": "2029-07-01",
+      "total": "353280.00"
+    }
+  ],
+  "start_total": "199641.60",
+  "end_total": "353280.00",
+  "month_index": 5,
+  "jump_period_start": "2027-01-01",
+  "monthly_jump": "67494.40",
+  "annualized_impact": "809932.80",
+  "headline": "In 5 months (January 2027), megacloud's cost jumps by $67,494.40/mo -- an estimated $809,932.80/yr impact."
+}

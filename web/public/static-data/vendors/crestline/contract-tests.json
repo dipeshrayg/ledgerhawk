@@ -1,0 +1,14 @@
+{
+  "vendor_id": "crestline",
+  "results": [
+    {
+      "name": "90 kits, base + per-kit, no escalation",
+      "type": "scenario",
+      "status": "PASS",
+      "detail": "computed 1330.00, expected 1330.00"
+    }
+  ],
+  "all_passed": true,
+  "pass_count": 1,
+  "fail_count": 0
+}

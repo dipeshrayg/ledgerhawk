@@ -1,0 +1,155 @@
+{
+  "pair_id": "datavault",
+  "vendor_name": "DataVault Storage",
+  "v1": {
+    "contract_id": "datavault_v1",
+    "vendor_name": "DataVault Storage",
+    "parties": [
+      {
+        "name": "DataVault Storage",
+        "role": "vendor"
+      },
+      {
+        "name": "Customer Corp.",
+        "role": "customer"
+      }
+    ],
+    "documents": [
+      {
+        "doc_id": "msa_v1",
+        "name": "DataVault MSA (v1)",
+        "doc_type": "MSA",
+        "effective_date": "2025-01-01",
+        "executed": true,
+        "authority_rank": 0
+      }
+    ],
+    "term": {
+      "start_date": "2025-01-01",
+      "end_date": "2027-01-01",
+      "renewal_type": "auto",
+      "renewal_notice_days": 60,
+      "auto_renewal_uplift_pct": null,
+      "provenance": {
+        "doc_id": "msa_v1",
+        "section": "2.1",
+        "quote": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least 60 days prior to the end of the then-current term.",
+        "page": null
+      }
+    },
+    "pricing_clauses": []
+  },
+  "v2": {
+    "contract_id": "datavault_v2",
+    "vendor_name": "DataVault Storage",
+    "parties": [
+      {
+        "name": "DataVault Storage",
+        "role": "vendor"
+      },
+      {
+        "name": "Customer Corp.",
+        "role": "customer"
+      }
+    ],
+    "documents": [
+      {
+        "doc_id": "msa_v2",
+        "name": "DataVault MSA (v2)",
+        "doc_type": "MSA",
+        "effective_date": "2026-01-01",
+        "executed": true,
+        "authority_rank": 0
+      }
+    ],
+    "term": {
+      "start_date": "2025-01-01",
+      "end_date": "2027-01-01",
+      "renewal_type": "auto",
+      "renewal_notice_days": 15,
+      "auto_renewal_uplift_pct": null,
+      "provenance": {
+        "doc_id": "msa_v2",
+        "section": "2.1",
+        "quote": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least 15 days prior to the end of the then-current term.",
+        "page": null
+      }
+    },
+    "pricing_clauses": []
+  },
+  "changes": [
+    {
+      "rule_key": "pricing.discount.default",
+      "category": "discount",
+      "change": "removed",
+      "v1": {
+        "pct": "5"
+      },
+      "v2": null,
+      "explanation": "'pricing.discount.default' was removed in v2 (Customer shall receive a 5 percent discount off recurring fees for the first twelve (12) months.)."
+    },
+    {
+      "rule_key": "pricing.escalation.default",
+      "category": "escalation",
+      "change": "modified",
+      "v1": {
+        "pct": "3",
+        "cap_pct": "6",
+        "frequency": "annually"
+      },
+      "v2": {
+        "pct": "6",
+        "cap_pct": "15",
+        "frequency": "quarterly"
+      },
+      "explanation": "Escalation clause changed: cap 6% -> 15%, rate 3% -> 6%, frequency annually -> quarterly."
+    },
+    {
+      "rule_key": "pricing.per_unit.tb",
+      "category": "pricing",
+      "change": "modified",
+      "v1": {
+        "unit_name": "tb",
+        "rate": "20.00"
+      },
+      "v2": {
+        "unit_name": "tb",
+        "rate": "24.00"
+      },
+      "explanation": "Per-unit rate changed from $20.00 to $24.00 per tb."
+    },
+    {
+      "rule_key": null,
+      "category": "legal_risk",
+      "change": "new_risk",
+      "v1": null,
+      "v2": "SHORT_RENEWAL_NOTICE",
+      "explanation": "Auto-renewal with only 15-day notice window. Auto-renewing contracts with a short opt-out window routinely trap customers into another full term (often with an uplift) because the cancellation deadline passes unnoticed. Market standard is a 60-90 day notice window."
+    },
+    {
+      "rule_key": "pricing.escalation.default",
+      "category": "legal_risk",
+      "change": "new_risk",
+      "v1": null,
+      "v2": "QUARTERLY_ESCALATION",
+      "explanation": "Escalation clause (MSA v2 \u00a75.3) fires quarterly, not annually. Quarterly escalation is far more aggressive than the market-standard annual cadence -- it compounds 4x faster over the same period."
+    },
+    {
+      "rule_key": "term.renewal_notice_days",
+      "category": "legal_risk",
+      "change": "modified",
+      "v1": 60,
+      "v2": 15,
+      "explanation": "Renewal notice window changed from 60 to 15 days."
+    }
+  ],
+  "total_v1_36mo": "380100.00",
+  "total_v2_36mo": "487080.00",
+  "dollar_impact_36mo": "106980.00",
+  "categories": [
+    "discount",
+    "escalation",
+    "legal_risk",
+    "pricing"
+  ]
+}
