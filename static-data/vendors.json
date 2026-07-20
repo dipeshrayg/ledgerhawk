@@ -1,0 +1,51 @@
+{
+  "vendors": [
+    {
+      "vendor_id": "megacloud",
+      "vendor_name": "MegaCloud Inc.",
+      "category": "Cloud & Data Platform",
+      "invoice_count": 12,
+      "finding_count": 6,
+      "total_recovered": "75885.90",
+      "build_status": "FAIL"
+    },
+    {
+      "vendor_id": "salesforge",
+      "vendor_name": "SalesForge CRM",
+      "category": "CRM",
+      "invoice_count": 12,
+      "finding_count": 3,
+      "total_recovered": "8274.00",
+      "build_status": "FAIL"
+    },
+    {
+      "vendor_id": "nimbuspay",
+      "vendor_name": "NimbusPay",
+      "category": "Payroll",
+      "invoice_count": 12,
+      "finding_count": 3,
+      "total_recovered": "1802.50",
+      "build_status": "FAIL"
+    },
+    {
+      "vendor_id": "crestline",
+      "vendor_name": "Crestline Office Supplies",
+      "category": "Office Supplies",
+      "invoice_count": 12,
+      "finding_count": 2,
+      "total_recovered": "458.00",
+      "build_status": "FAIL"
+    },
+    {
+      "vendor_id": "peakservers",
+      "vendor_name": "PeakServers Hosting",
+      "category": "Cloud Hosting",
+      "invoice_count": 12,
+      "finding_count": 0,
+      "total_recovered": "0.00",
+      "build_status": "PASS"
+    }
+  ],
+  "demo_mode": true,
+  "llm_mode": "demo"
+}

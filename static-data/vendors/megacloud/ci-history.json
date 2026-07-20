@@ -1,0 +1,95 @@
+{
+  "vendor_id": "megacloud",
+  "build_status": "FAIL",
+  "history": [
+    {
+      "invoice_id": "megacloud-202508",
+      "status": "FAIL",
+      "expected_total": "181300.00",
+      "actual_total": "185837.50",
+      "delta": "4537.50"
+    },
+    {
+      "invoice_id": "megacloud-202509",
+      "status": "FAIL",
+      "expected_total": "183800.00",
+      "actual_total": "186300.00",
+      "delta": "2500.00"
+    },
+    {
+      "invoice_id": "megacloud-202510",
+      "status": "PASS",
+      "expected_total": "181300.00",
+      "actual_total": "181300.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "megacloud-202511",
+      "status": "FAIL",
+      "expected_total": "196150.00",
+      "actual_total": "211000.00",
+      "delta": "14850.00"
+    },
+    {
+      "invoice_id": "megacloud-202512",
+      "status": "PASS",
+      "expected_total": "211000.00",
+      "actual_total": "211000.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "megacloud-202601",
+      "status": "FAIL",
+      "expected_total": "199441.60",
+      "actual_total": "231057.60",
+      "delta": "31616.00"
+    },
+    {
+      "invoice_id": "megacloud-202602",
+      "status": "PASS",
+      "expected_total": "199441.60",
+      "actual_total": "199441.60",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "megacloud-202603",
+      "status": "FAIL",
+      "expected_total": "199441.60",
+      "actual_total": "199641.60",
+      "delta": "200.00"
+    },
+    {
+      "invoice_id": "megacloud-202604",
+      "status": "PASS",
+      "expected_total": "199441.60",
+      "actual_total": "199441.60",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "megacloud-202605",
+      "status": "FAIL",
+      "expected_total": "199441.60",
+      "actual_total": "221624.00",
+      "delta": "22182.40"
+    },
+    {
+      "invoice_id": "megacloud-202606",
+      "status": "PASS",
+      "expected_total": "199441.60",
+      "actual_total": "199441.60",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "megacloud-202607",
+      "status": "PASS",
+      "expected_total": "199641.60",
+      "actual_total": "199641.60",
+      "delta": "0.00"
+    }
+  ],
+  "contract_tests": {
+    "pass_count": 3,
+    "fail_count": 0,
+    "all_passed": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "vendor_id": "nimbuspay",
+  "invoice_id": "nimbuspay-202607",
+  "letter": "Re: Billing Discrepancy on Invoice nimbuspay-202607\n\nTo the Billing Department, NimbusPay:\n\nWe are writing to dispute a discrepancy identified on invoice nimbuspay-202607, covering the\nbilling period 2026-07-01 through 2026-07-31.\n\nPer the governing clause (MSA \u00a75.2):\n\n    \"In addition to per-employee fees, Customer shall pay a platform base fee of $300.00 per month.\"\n\nOur records show the contractually correct charge for this period is $8,800.00.\nThe invoice as billed totals $8,850.00, a discrepancy of $50.00.\n\nCalculation:\n  - Flat fee: expected 300.00, billed 350.00 (overcharge of 50.00)\n\nWe request a corrected invoice or credit memo reflecting the $50.00 adjustment within\nthirty (30) days. Please contact us with any questions.\n\nRegards,\nAccounts Payable\n",
+  "finding": {
+    "finding_id": "6f6658ab-fc01-49d5-8dfb-3e1586cebbd2",
+    "vendor_id": "nimbuspay",
+    "invoice_id": "nimbuspay-202607",
+    "rule_id": "msa:pricing.flat.base",
+    "rule_key": "pricing.flat.base",
+    "severity": "low",
+    "clause_quote": "In addition to per-employee fees, Customer shall pay a platform base fee of $300.00 per month.",
+    "clause_source": "MSA \u00a75.2",
+    "expected_amount": "8800.00",
+    "actual_amount": "8850.00",
+    "delta": "50.00",
+    "confidence": 1.0,
+    "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 50.00.",
+    "math_trace": [
+      "Flat fee: expected 300.00, billed 350.00 (overcharge of 50.00)"
+    ]
+  }
+}

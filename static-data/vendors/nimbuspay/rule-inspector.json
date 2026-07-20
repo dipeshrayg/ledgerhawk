@@ -1,0 +1,86 @@
+{
+  "vendor_id": "nimbuspay",
+  "as_of": "2026-07-15",
+  "effective_terms": [
+    {
+      "rule_key": "pricing.per_unit.employee",
+      "rule_type": "per_unit",
+      "params": {
+        "unit_name": "employee",
+        "rate": "8.50"
+      },
+      "source_name": "Amendment 1 \u00a72",
+      "doc_id": "amend1",
+      "effective_from": "2025-06-01",
+      "effective_to": null,
+      "provenance_quote": "Effective June 1, 2025, the per-employee fee set forth in MSA Section 5.1 is amended to $8.50 per active employee per month.",
+      "provenance_section": "2",
+      "superseded_rule_ids": [
+        "msa:pricing.per_unit.employee"
+      ]
+    },
+    {
+      "rule_key": "pricing.flat.base",
+      "rule_type": "flat_fee",
+      "params": {
+        "amount": "300.00",
+        "cadence": "monthly"
+      },
+      "source_name": "MSA \u00a75.2",
+      "doc_id": "msa",
+      "effective_from": "2024-06-01",
+      "effective_to": null,
+      "provenance_quote": "In addition to per-employee fees, Customer shall pay a platform base fee of $300.00 per month.",
+      "provenance_section": "5.2",
+      "superseded_rule_ids": []
+    },
+    {
+      "rule_key": "pricing.proration_policy",
+      "rule_type": "proration_policy",
+      "params": {
+        "method": "daily"
+      },
+      "source_name": "MSA \u00a75.4",
+      "doc_id": "msa",
+      "effective_from": "2024-06-01",
+      "effective_to": null,
+      "provenance_quote": "Mid-cycle employee count changes shall be prorated daily.",
+      "provenance_section": "5.4",
+      "superseded_rule_ids": []
+    },
+    {
+      "rule_key": "pricing.one_time.tax_filing",
+      "rule_type": "one_time",
+      "params": {
+        "amount": "1200.00",
+        "description": "Year-end tax filing fee",
+        "date": "2025-12-01"
+      },
+      "source_name": "Amendment 1 \u00a74",
+      "doc_id": "amend1",
+      "effective_from": "2025-06-01",
+      "effective_to": null,
+      "provenance_quote": "Customer shall pay a one-time year-end tax filing fee of $1,200.00, invoiced in December 2025.",
+      "provenance_section": "4",
+      "superseded_rule_ids": []
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "msa",
+      "name": "Master Services Agreement",
+      "doc_type": "MSA",
+      "effective_date": "2024-06-01",
+      "executed": true,
+      "authority_rank": 0
+    },
+    {
+      "doc_id": "amend1",
+      "name": "Amendment 1",
+      "doc_type": "AMENDMENT",
+      "effective_date": "2025-06-01",
+      "executed": true,
+      "authority_rank": 1
+    }
+  ]
+}

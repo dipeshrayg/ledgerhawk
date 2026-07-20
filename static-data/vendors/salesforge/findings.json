@@ -1,0 +1,59 @@
+{
+  "vendor_id": "salesforge",
+  "findings": [
+    {
+      "finding_id": "aeaa7d9f-f7dc-47f7-a304-f857c3966f11",
+      "vendor_id": "salesforge",
+      "invoice_id": "salesforge-202510",
+      "rule_id": "msa:pricing.per_unit.user",
+      "rule_key": "pricing.per_unit.user",
+      "severity": "high",
+      "clause_quote": "Customer shall pay $15.00 per active user per month.",
+      "clause_source": "MSA \u00a76.2",
+      "expected_amount": "33136.00",
+      "actual_amount": "39736.00",
+      "delta": "6600.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 6600.00.",
+      "math_trace": [
+        "user usage: expected 33000.00, billed 39600.00 (overcharge of 6600.00)"
+      ]
+    },
+    {
+      "finding_id": "d440659d-d847-419f-a473-31a26f515a43",
+      "vendor_id": "salesforge",
+      "invoice_id": "salesforge-202512",
+      "rule_id": "msa:pricing.per_unit.user",
+      "rule_key": "pricing.per_unit.user",
+      "severity": "high",
+      "clause_quote": "Customer shall pay $15.00 per active user per month.",
+      "clause_source": "MSA \u00a76.2",
+      "expected_amount": "33136.00",
+      "actual_amount": "34786.00",
+      "delta": "1650.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 1650.00.",
+      "math_trace": [
+        "user usage: expected 33000.00, billed 34650.00 (overcharge of 1650.00)"
+      ]
+    },
+    {
+      "finding_id": "aed79ab6-08b5-41cd-96b0-e0926f2bf5e2",
+      "vendor_id": "salesforge",
+      "invoice_id": "salesforge-202602",
+      "rule_id": "msa:pricing.volume.storage_gb",
+      "rule_key": "pricing.volume.storage_gb",
+      "severity": "low",
+      "clause_quote": "Additional data storage is billed at $0.20 per GB for the first 500 GB per month and $0.12 per GB for each GB thereafter.",
+      "clause_source": "MSA \u00a77.1",
+      "expected_amount": "33136.00",
+      "actual_amount": "33160.00",
+      "delta": "24.00",
+      "confidence": 1.0,
+      "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 24.00.",
+      "math_trace": [
+        "storage_gb tiered usage: expected 136.00, billed 160.00 (overcharge of 24.00)"
+      ]
+    }
+  ]
+}

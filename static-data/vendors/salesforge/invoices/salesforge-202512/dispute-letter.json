@@ -1,0 +1,23 @@
+{
+  "vendor_id": "salesforge",
+  "invoice_id": "salesforge-202512",
+  "letter": "Re: Billing Discrepancy on Invoice salesforge-202512\n\nTo the Billing Department, SalesForge CRM:\n\nWe are writing to dispute a discrepancy identified on invoice salesforge-202512, covering the\nbilling period 2025-12-01 through 2025-12-31.\n\nPer the governing clause (MSA \u00a76.2):\n\n    \"Customer shall pay $15.00 per active user per month.\"\n\nOur records show the contractually correct charge for this period is $33,136.00.\nThe invoice as billed totals $34,786.00, a discrepancy of $1,650.00.\n\nCalculation:\n  - user usage: expected 33000.00, billed 34650.00 (overcharge of 1650.00)\n\nWe request a corrected invoice or credit memo reflecting the $1,650.00 adjustment within\nthirty (30) days. Please contact us with any questions.\n\nRegards,\nAccounts Payable\n",
+  "finding": {
+    "finding_id": "a0200f25-39ff-454b-9daf-e4a50917b7a4",
+    "vendor_id": "salesforge",
+    "invoice_id": "salesforge-202512",
+    "rule_id": "msa:pricing.per_unit.user",
+    "rule_key": "pricing.per_unit.user",
+    "severity": "high",
+    "clause_quote": "Customer shall pay $15.00 per active user per month.",
+    "clause_source": "MSA \u00a76.2",
+    "expected_amount": "33136.00",
+    "actual_amount": "34786.00",
+    "delta": "1650.00",
+    "confidence": 1.0,
+    "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 1650.00.",
+    "math_trace": [
+      "user usage: expected 33000.00, billed 34650.00 (overcharge of 1650.00)"
+    ]
+  }
+}

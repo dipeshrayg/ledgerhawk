@@ -1,0 +1,95 @@
+{
+  "vendor_id": "peakservers",
+  "build_status": "PASS",
+  "history": [
+    {
+      "invoice_id": "peakservers-202508",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202509",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202510",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202511",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202512",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202601",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202602",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202603",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202604",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202605",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202606",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    },
+    {
+      "invoice_id": "peakservers-202607",
+      "status": "PASS",
+      "expected_total": "1425.00",
+      "actual_total": "1425.00",
+      "delta": "0.00"
+    }
+  ],
+  "contract_tests": {
+    "pass_count": 1,
+    "fail_count": 0,
+    "all_passed": true
+  }
+}

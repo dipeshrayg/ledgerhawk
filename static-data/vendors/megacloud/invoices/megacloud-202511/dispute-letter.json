@@ -1,0 +1,23 @@
+{
+  "vendor_id": "megacloud",
+  "invoice_id": "megacloud-202511",
+  "letter": "Re: Billing Discrepancy on Invoice megacloud-202511\n\nTo the Billing Department, MegaCloud Inc.:\n\nWe are writing to dispute a discrepancy identified on invoice megacloud-202511, covering the\nbilling period 2025-11-01 through 2025-11-30.\n\nPer the governing clause (Amendment 2 \u00a73):\n\n    \"Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.\"\n\nOur records show the contractually correct charge for this period is $196,150.00.\nThe invoice as billed totals $211,000.00, a discrepancy of $14,850.00.\n\nCalculation:\n  - seat usage: expected 196350.00, billed 211200.00 (overcharge of 14850.00)\n\nWe request a corrected invoice or credit memo reflecting the $14,850.00 adjustment within\nthirty (30) days. Please contact us with any questions.\n\nRegards,\nAccounts Payable\n",
+  "finding": {
+    "finding_id": "289e4d0b-bccd-456e-b748-5fb12b0ce901",
+    "vendor_id": "megacloud",
+    "invoice_id": "megacloud-202511",
+    "rule_id": "amend2:pricing.per_unit.seat",
+    "rule_key": "pricing.per_unit.seat",
+    "severity": "high",
+    "clause_quote": "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 is amended to $16.50 per active seat per month.",
+    "clause_source": "Amendment 2 \u00a73",
+    "expected_amount": "196150.00",
+    "actual_amount": "211000.00",
+    "delta": "14850.00",
+    "confidence": 1.0,
+    "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 14850.00.",
+    "math_trace": [
+      "seat usage: expected 196350.00, billed 211200.00 (overcharge of 14850.00)"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "vendor_id": "megacloud",
+  "invoice_id": "megacloud-202509",
+  "letter": "Re: Billing Discrepancy on Invoice megacloud-202509\n\nTo the Billing Department, MegaCloud Inc.:\n\nWe are writing to dispute a discrepancy identified on invoice megacloud-202509, covering the\nbilling period 2025-09-01 through 2025-09-30.\n\nPer the governing clause (Amendment 2 \u00a76):\n\n    \"Customer shall pay a one-time data migration fee of $2,500.00, due upon the September 2025 migration window.\"\n\nOur records show the contractually correct charge for this period is $183,800.00.\nThe invoice as billed totals $186,300.00, a discrepancy of $2,500.00.\n\nCalculation:\n  - Data migration fee: expected 0.00, billed 2500.00 (overcharge of 2500.00)\n\nWe request a corrected invoice or credit memo reflecting the $2,500.00 adjustment within\nthirty (30) days. Please contact us with any questions.\n\nRegards,\nAccounts Payable\n",
+  "finding": {
+    "finding_id": "2bb8ec2e-c4cc-45da-aba3-46ee47c5555b",
+    "vendor_id": "megacloud",
+    "invoice_id": "megacloud-202509",
+    "rule_id": "amend2:pricing.one_time.migration",
+    "rule_key": "pricing.one_time.migration",
+    "severity": "high",
+    "clause_quote": "Customer shall pay a one-time data migration fee of $2,500.00, due upon the September 2025 migration window.",
+    "clause_source": "Amendment 2 \u00a76",
+    "expected_amount": "183800.00",
+    "actual_amount": "186300.00",
+    "delta": "2500.00",
+    "confidence": 1.0,
+    "explanation": "Invoice total is higher than the contract's Virtual Billing Engine replay by 2500.00.",
+    "math_trace": [
+      "Data migration fee: expected 0.00, billed 2500.00 (overcharge of 2500.00)"
+    ]
+  }
+}

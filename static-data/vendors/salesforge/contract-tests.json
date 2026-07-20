@@ -1,0 +1,20 @@
+{
+  "vendor_id": "salesforge",
+  "results": [
+    {
+      "name": "2200 users, no escalation active yet (2025) -> flat $15/user",
+      "type": "scenario",
+      "status": "PASS",
+      "detail": "computed 33000.00, expected 33000.00"
+    },
+    {
+      "name": "Escalation cap must never exceed 5%",
+      "type": "invariant",
+      "status": "PASS",
+      "detail": "All 1 rule(s) satisfy cap_pct <= 5"
+    }
+  ],
+  "all_passed": true,
+  "pass_count": 2,
+  "fail_count": 0
+}
