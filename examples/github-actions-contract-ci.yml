@@ -1,0 +1,55 @@
+# Example: Contract CI (F9) running in a real repository on invoice commit.
+#
+# Drop this in a repo's .github/workflows/ where invoices land as JSON files
+# under invoices/<vendor_id>/<invoice_id>.json (e.g. via your AP system's
+# export job, or a connector -- see app/connectors/ in the LedgerHawk repo).
+# Every commit that adds or changes an invoice file re-runs reconciliation
+# against that vendor's compiled contract and FAILS THE BUILD on a mismatch,
+# exactly like a broken unit test.
+#
+# This file is illustrative but fully runnable: `examples/invoices/` in the
+# LedgerHawk repo contains a real failing case (megacloud-202508.json, the
+# seat-drift finding from docs/DEMO_DATA.md) and a real passing case
+# (peakservers-202508.json), reconciled below with the actual CLI.
+
+name: Contract CI
+
+on:
+  push:
+    paths:
+      - "invoices/**"
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install LedgerHawk API
+        run: pip install -r api/requirements.txt
+
+      - name: Reconcile every changed invoice
+        run: |
+          git diff --name-only --diff-filter=ACM ${{ github.event.before }} ${{ github.sha }} -- 'invoices/**/*.json' | while read -r file; do
+            vendor_id=$(basename "$(dirname "$file")")
+            echo "::group::Reconciling $file ($vendor_id)"
+            python api/scripts/reconcile_cli.py "$vendor_id" "$file"
+            echo "::endgroup::"
+          done
+
+# Demo of both outcomes using this repo's own fixture invoices:
+#
+#   python api/scripts/reconcile_cli.py megacloud examples/invoices/megacloud-202508.json
+#   -> [MegaCloud Inc.] megacloud-202508: FAIL  expected=$181300.00  billed=$185837.50
+#      FINDING: Invoice total is higher than the contract's Virtual Billing Engine replay by 4537.50.
+#      Clause (Amendment 2 §3): "Effective January 1, 2025, the per-seat fee set forth in MSA Section 6.2 ..."
+#      Delta: $4537.50
+#   -> exit code 1 (build fails)
+#
+#   python api/scripts/reconcile_cli.py peakservers examples/invoices/peakservers-202508.json
+#   -> [PeakServers Hosting] peakservers-202508: PASS  expected=$1425.00  billed=$1425.00
+#   -> exit code 0 (build passes)
